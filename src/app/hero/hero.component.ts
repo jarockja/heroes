@@ -8,7 +8,7 @@ import {HeroService} from "../hero.service";
   styleUrls: ['./hero.component.css'],
   providers: [HeroService]
 })
-export class HeroComponentComponent implements OnInit {
+export class HeroComponent implements OnInit {
 
   constructor(private heroService: HeroService) { }
 

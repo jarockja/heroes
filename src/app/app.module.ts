@@ -5,13 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
-import { HeroComponentComponent } from './hero/hero.component';
+import { HeroComponent} from './hero/hero.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroDetailComponent,
-    HeroComponentComponent
+    HeroComponent
   ],
   imports: [
     BrowserModule,
