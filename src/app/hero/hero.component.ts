@@ -12,7 +12,6 @@ export class HeroComponentComponent implements OnInit {
 
   constructor(private heroService: HeroService) { }
 
-  title = 'Tour of Heroes';
   heroes: Hero[];
   selectedHero: Hero;
 
